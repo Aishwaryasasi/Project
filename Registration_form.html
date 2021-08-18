@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration Form</title>
+    </head>
+    <body>
+        <table border="5" align="center" cellspacing="40" width="50%" height="600" bgcolor="papayawhip">
+        <tr>
+        <td width="50%" align="center" width="50%" height="600" bgcolor="lightpink">   
+        <h1> TNEA Registration Form </h1><br><br>
+        <form method="POST" action=" " enctype="multipart/form-data">
+           <label>Name :</label>   
+           <input type="text" name="rename" placeholder="Name" required><br><br>
+           <label>Mobile :</label>
+           <input type="number" name="remobile" placeholder="Mobile number" maxlength="10" required><br><br>
+           <label>Email :</label>
+           <input type="email" name="remail" placeholder="Email" required><br><br>
+           <label>Date of birth(MM-DD-YYYY) :</label>
+           <input type="date" name="redob" placeholder="Date of birth" required><br><br>
+           <label>Whether +1 Passed </label><br>
+           <input type="radio" name="reradio" value="Yes"> Yes<br>
+           <input type="radio" name="reradio" value="No"> No<br><br>
+           <label>Qualifying Examination :</label>
+           <select name="ReExam"> 
+           <option> --Select-- </option>    
+           <option> HSC </option>
+           <option> CBSE </option>
+           <option> ICSE </option>
+           <option> Others </option>
+           </select><br><br>
+           <label>Password :</label>
+           <input type="password" name="repassword" placeholder="Password" required><br><br>
+           <label>Confirm Password :</label>
+           <input type="password" name="regpassword" placeholder="Confirm Password" required><br><br>
+           <input type="submit">
+           <input type="reset">
+        </form>
+        </td> 
+        </tr>
+    </table>
+    </body>
+</html>

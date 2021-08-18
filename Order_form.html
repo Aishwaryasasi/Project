@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Flipkart Order Form </title>
+    </head>
+    <body>
+        <table border="5" align="center" width="45%" cellspacing="30" height="750" bgcolor="gainsboro">
+            <tr>
+            <td border="3" width="50%" align="center" width="45%" height="750" bgcolor="slategray ">
+            <img src="flipkart.png">
+        <form method="POST" action=" " enctype="multipart/form-data">  
+            <h1> ORDER FORM  </h1><br>
+            <label><b>Name :</b></label>   
+            <input type="text" name="orname" placeholder="Name" required><br><br>
+            <label><b>Phone number :</b></label>
+            <input type="number" name="resphone" placeholder="Phone number" maxlength="10" required><br><br>
+            <label><b>Email :</b></label>
+            <input type="email" name="sgemail"  placeholder="Enter Email" required><br><br>
+            <label><b>Shipping Address </b></label>
+            <input type="text" name="resAddress" placeholder="Address " required><br><br>
+            <label><b> Landmark :</b></label>   
+            <input type="text" name="orlandmark" placeholder="Landmark" required><br><br>
+            <label><b> City :</b></label>   
+            <input type="text" name="rescity" placeholder="City" required><br><br>
+            <label><b> State :</b></label>   
+            <input type="text" name="resState" placeholder="State" required><br><br>
+            <label><b> Pin Code :</b></label>   
+            <input type="number" name="respincode" placeholder="Pincode" maxlength="6" required><br><br>
+            <label><b> List of Products : </b></label>
+            <select name="orproduct"> 
+                <option> --Select option-- </option>    
+                <option> T-shirt</option>
+                <option> Kurta set</option>
+                <option> Shoes </option>
+                <option> Phone </option>
+                <option> TV </option>
+                <option> Headset</option>
+            </select><br><br>
+            <label><b> Payment Method  : </b></label>
+            <select name="orpayment"> 
+                <option> --Select option-- </option>    
+                <option> Credit Card</option>
+                <option> UPI</option>
+                <option> Cash on Delivery </option>
+                <option> NetBanking </option>
+            </select><br><br><br>
+            <button type="submit">Place Order</button>
+            <button type="button">Cancel Order</button>
+            </form>
+        </td>
+        </tr>
+        </table>
+    </body>
+</html>
+
+
+
+            
+            

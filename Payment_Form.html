@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Payment Form</title>
+    </head>
+    <body>
+        <table border="4" align="center" cellspacing="30" width="50%" height="500" bgcolor="slategray">
+            <tr>
+            <td width="50%" align="center" width="50%" height="500" bgcolor="gainsboro">
+        <form method="POST" action=" " enctype="multipart/form-data"> 
+              <h1>Payment Form </h1><br>
+              <label><b>First Name </b> </label>   
+              <input type="text" name="pmname" placeholder="First Name" required><br><br>
+              <label><b>Last Name </b> </label>   
+              <input type="text" name="pmname" placeholder="Last Name" required><br><br>
+              <label><b>Payment Method </b> </label>   
+              <select name="pmpayment"> 
+                <option> --Select option-- </option>    
+                <option> Credit/Debit Card</option>
+                <option> UPI </option>
+                <option> Cash on Delivery </option>
+                <option> NetBanking </option>
+                <option> Wallet </option>
+            </select><br><br>
+            <label><b>Card Number </b> </label>   
+            <input type="number" name="pmcrnumber" placeholder="Valid card number" required><br><br>
+            <label><b>Expiration Date </b></label>
+            <input type="number" name="pmdate" placeholder="(MM/YY)" required><br><br>
+            <label><b>CVC Number :</b></label>
+            <input type="number" name="pmcode" placeholder="cvc number" required><br><br>
+            <label><b>Card Owner </b> </label> 
+            <input type="text" name="pmname" placeholder="Card Owner name" required><br><br><br>
+            <button type="button"> Confirm Payment </button>
+        </form>
+         </td>
+          </tr>
+        </table>
+    </body>
+</html>
+
