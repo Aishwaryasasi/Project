@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Donation Form</title>
+    </head>
+    <body>
+        <table border="5" align="center" width="45%" cellspacing="40" height="700" bgcolor="lightslategray">
+            <tr>
+            <td border="3" width="50%" align="center" width="45%" height="700" bgcolor="silver">
+        <form method="POST" action=" " enctype="multipart/form-data"> 
+              <h1> Donation Form </h1><br>
+              <label><b>Name :</b> </label>   
+              <input type="text" name="dtname" placeholder="Name" required>
+              <label><b>Company (if any)</b></label>   
+              <input type="text" name="dtcompany" placeholder="Company Name"><br><br>
+              <label><b>Email Address  :</b></label>
+              <input type="email" name="dtemail"  placeholder="ex@gmail.com" required>
+              <label><b>Phone :</b></label>
+              <input type="text" name="dtphone" placeholder="Phone number"  required><br><br>
+              <label><b>Address  :</b></label>  
+              <input type="text" name="resAddress" placeholder="Address " required>
+              <label><b> City :</b></label>   
+              <input type="text" name="rescity" placeholder="City" required><br><br>
+              <label><b> State :</b></label>   
+              <input type="text" name="resState" placeholder="State" required>
+              <label><b> Pin Code :</b></label> 
+              <input type="number" name="respincode" placeholder="Pincode" maxlength="6" required><br><br>  
+              <label><b>Donation Amount: </b></label>
+              <input type="radio" id="dtdonation" value="1000">1000rs 
+              <input type="radio"  id="dtdonation" value="5000">5000rs 
+              <input type="radio"  id="dtdonation" value="10000">10000rs 
+              <input type="radio" id="dtdonation" value="15000" >15000rs <br><br>
+              <label><b>Payment Method: </b></label>
+              <input type="radio" id"dtpayment" value="Check">Check
+              <input type="radio"  id="dtpayment" value="Money Order">Money Order
+              <input type="radio"  id="dtpayment" value="Credit Card">Credit Card
+              <input type="radio" id="dtpayment" value="UPI Method" >UPI<br><br>
+              <label><b> Message for the recipient</b></label><br><br>
+              <textarea name="dtsmessage"rows="7" cols="60"> Type Message here</textarea> <br><br>
+              <p><b> Thank you for your Donation</b></p>
+              <button type="submit"> SEND </button>
+            </form>
+        </td>
+        </tr>
+        </table>
+    </body>
+</html>
